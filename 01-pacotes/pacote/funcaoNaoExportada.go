@@ -3,5 +3,5 @@ package pacote
 import "fmt"
 
 func funcaoNaoExportada() {
-	fmt.Println("Função não funcaoexportada")
+	fmt.Println("Função não exportada")
 }

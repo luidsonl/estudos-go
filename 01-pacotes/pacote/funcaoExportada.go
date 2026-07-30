@@ -4,5 +4,5 @@ import "fmt"
 
 func FuncaoExportada() {
 	funcaoNaoExportada()
-	fmt.Println("Função funcaoexportada")
+	fmt.Println("Função exportada")
 }
