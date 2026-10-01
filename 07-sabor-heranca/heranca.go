@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-type animal struct{
+type alienigena struct{
 	nome string
 	idade uint8
 	agressivo bool
@@ -20,7 +20,7 @@ type pessoa struct{
 }
 
 type programador struct{
-	animal
+	alienigena
 	linguagem []string
 	tomaCafe bool
 	maluco bool
@@ -36,7 +36,7 @@ func main(){
 	}
 
 	luidson := programador{
-		animal: animal{
+		alienigena: alienigena{
 			nome: "Luidson",
 			idade: 153,
 			agressivo: false,
