@@ -1,0 +1,10 @@
+package urna
+
+const (
+	PRESIDENTE string = "PRESIDENTE"
+	GOVERNADOR string = "GOVERNADOR"
+	SENADOR string = "SENADOR"
+	SENADOR2 string = "SENADOR2"
+	DEP_FEDERAL string = "DEP_FEDERAL"
+	DEP_ESTADUAL string = "DEP_ESTADUAL"
+)
